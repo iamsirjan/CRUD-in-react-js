@@ -9,7 +9,7 @@ const Navbar = () => {
           <Link className='navbar-brand' to='/'>
             React User
           </Link>
-         <div className='collapse navbar-collapse'>
+          <div className='collapse navbar-collapse'>
             <ul className='navbar-nav mr-auto'>
               <li className='nav-item'>
                 <Link className='nav-link' aria-current='page' to='/'>
@@ -28,6 +28,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+          <buttton className="btn btn-outline-light"> Add User</buttton>
         </div>
       </nav>
     </>
