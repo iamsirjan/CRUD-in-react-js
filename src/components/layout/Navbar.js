@@ -1,39 +1,28 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
-      <nav class='navbar navbar-expand-lg navbar-dark bg-primary'>
-        <div class='container'>
-          <a class='navbar-brand' href='#'>
-            React User kiran branch
-          </a>
-          <button
-            class='navbar-toggler'
-            type='button'
-            data-bs-toggle='collapse'
-            data-bs-target='#navbarSupportedContent'
-            aria-controls='navbarSupportedContent'
-            aria-expanded='false'
-            aria-label='Toggle navigation'
-          >
-            <span class='navbar-toggler-icon'></span>
-          </button>
-          <div class='collapse navbar-collapse'>
-            <ul class='navbar-nav mr-auto'>
-              <li class='nav-item active'>
-                <Link class='nav-link' aria-current='page' to='/'>
+      <nav className='navbar navbar-expand-lg navbar-dark bg-primary'>
+        <div className='container'>
+          <Link className='navbar-brand' to='/'>
+            React User
+          </Link>
+         <div className='collapse navbar-collapse'>
+            <ul className='navbar-nav mr-auto'>
+              <li className='nav-item'>
+                <Link className='nav-link' aria-current='page' to='/'>
                   Home
                 </Link>
               </li>
-              <li class='nav-item'>
-                <Link class='nav-link' to='/about'>
+              <li className='nav-item'>
+                <Link className='nav-link' to='/about'>
                   About
                 </Link>
               </li>
-              <li class='nav-item'>
-                <Link class='nav-link' to='/contact'>
+              <li className='nav-item'>
+                <Link className='nav-link' to='/contact'>
                   Contact
                 </Link>
               </li>
