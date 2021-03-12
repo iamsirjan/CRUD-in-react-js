@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div className="container">
             <div className="py-4">
-                <h1> Home page </h1>
+                <h1> Home page  branch</h1>
             </div>
             
         </div>
