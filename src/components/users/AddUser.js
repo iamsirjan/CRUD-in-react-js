@@ -24,6 +24,14 @@ const AddUser = () => {
     await axios.post("http://localhost:5000/users", user);
     history.push("/");
   };
+  
+  
+  // reacr form use garexi sidai esto garda vayo
+//   const onSubmit = async (data) => {
+    
+//     await axios.post("link here " , data);
+    
+//   }
 
   return (
     <>
